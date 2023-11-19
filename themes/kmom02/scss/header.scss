@@ -1,0 +1,9 @@
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background: $sunset-gradient;
+}
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}

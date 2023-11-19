@@ -1,6 +1,7 @@
 ---
 Title: Docs
 Description: Documentation that came with Pico.
+Icon: fas fa-map-marker-alt
 # hidden: true
 ---
 

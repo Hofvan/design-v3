@@ -1,6 +1,7 @@
 ---
 Title: Hobby
 Descritption: Page about my hobby
+Icon: fas fa-map-marker-alt
 ---
 
 Min Hobby
