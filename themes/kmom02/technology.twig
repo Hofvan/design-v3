@@ -1,0 +1,26 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="greatbox">
+            <div class="tech-nav smallbox flex-grow-1">
+                <ul>
+                    {% for page in pages("technology") if page.title and not page.hidden %}
+                        <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                            <a href="{{ page.url }}"><i class="{{ page.meta['icon'] }}" aria-hidden="true"></i>{{ page.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="smallbox flex-grow-2">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

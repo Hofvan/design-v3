@@ -3,3 +3,25 @@
         display: none;
     }
 }
+
+@media (max-width: 600px) {
+    .tech-nav { display: none;}
+}
+
+@media (max-width: 600px) {
+    .landingpage {
+        grid-template-columns: 100%;
+    }
+
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .spantwo {
+        grid-column: span 1;
+    }
+
+    .spanthree {
+        grid-column: span 1;
+    }
+}
