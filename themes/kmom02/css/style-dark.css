@@ -6455,7 +6455,7 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.4;
-  background-color: #FFF;
+  background-color: #7c7c7c;
 }
 
 .main {
@@ -6480,7 +6480,7 @@ body {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(#F02822, #fff);
+  background: linear-gradient(#f1c168, #f19191);
 }
 
 .title, .logo {
@@ -6510,7 +6510,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 2px solid #222;
-  background: linear-gradient(to top, #2294F0, #fff);
+  background: linear-gradient(to top, #f1c168, #f19191);
 }
 
 .footer a {
@@ -6569,7 +6569,7 @@ pre code {
 
 .landingpage h2 {
   justify-self: center;
-  color: #F02822;
+  color: #fa791d;
 }
 
 .box {
@@ -6591,7 +6591,7 @@ pre code {
 .spanone {
   grid-column: span 1;
   border: 2px solid #333;
-  background-color: #FFF;
+  background-color: #333;
   border-radius: 25px;
   padding: 1rem;
 }
@@ -6599,7 +6599,7 @@ pre code {
 .spantwo {
   grid-column: span 2;
   border: 2px solid #333;
-  background-color: #FFF;
+  background-color: #333;
   border-radius: 25px;
   padding: 1rem;
 }
@@ -6607,7 +6607,7 @@ pre code {
 .spanthree {
   grid-column: span 3;
   border: 2px solid #333;
-  background-color: #FFF;
+  background-color: #333;
   border-radius: 25px;
   padding: 1rem;
 }
@@ -6628,7 +6628,7 @@ pre code {
 
 .smallbox {
   border: 2px solid #333;
-  background-color: #FFF;
+  background-color: #333;
   border-radius: 25px;
   padding: 1rem;
   margin: 0.5rem;
